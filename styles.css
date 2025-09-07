@@ -29,6 +29,12 @@ body {
   text-decoration: none;
   font-weight: bold;
   font-size: 1rem;
+  transition: background 0.2s; /* Smooth color change on hover */
+}
+
+/* Hover effect for Learn More button */
+.learn-more-btn:hover {
+  background: #5e8fa3; /* Slightly darker blue on hover */
 }
 
 /* Hero section split in half with diagonal background */
@@ -103,6 +109,12 @@ body {
   width: fit-content;
   margin-top: 16px;        /* Extra space above the button */
   box-shadow: 0 2px 8px rgba(0,0,0,0.08); /* Optional: subtle shadow for emphasis */
+  transition: background 0.2s; /* Smooth color change on hover */
+}
+
+/* Hover effect for Donate button */
+.donate-btn:hover {
+  background: #5e8fa3; /* Slightly darker blue on hover */
 }
 
 /* Extend the colored background further down below the hero section */
